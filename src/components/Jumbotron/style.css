@@ -1,0 +1,18 @@
+.jumbo {
+  background: url('../../assets/skyline.jpg') no-repeat fixed bottom;
+  /* background-size: fixed; */
+  color: #efefef;
+  height: 200px;
+  position: relative;
+  z-index: -2;
+  height: 500px;
+}
+
+.welcome {
+  margin-top: 100px;
+  background-color:grey;
+}
+
+.sub-welcome {
+  background-color:grey;
+}

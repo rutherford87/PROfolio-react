@@ -1,0 +1,27 @@
+.navbar-top {
+    background: #00475a;
+    padding-bottom: 1rem;
+    color: white;
+    }
+
+nav div a {
+    color: white;
+    text-decoration: none;
+}
+
+nav div a:hover {
+    color: grey; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.bland {
+    color: white !important;
+    text-decoration: none;
+}
+
+.bland:hover {
+    color: grey !important; 
+    text-decoration:none; 
+    cursor:pointer;  
+}

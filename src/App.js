@@ -7,6 +7,8 @@ import Projects from "./pages/Projects";
 
 import Wrapper from "./components/Wrapper"
 import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
+
 
 import './App.css';
 
@@ -15,19 +17,21 @@ function App() {
     <div className="App">
 
 
-        <Router>
-          <div>
+      <Router>
+        <div>
 
-            <Wrapper>
-              <Navbar />
-              <Route exact path="/" component={About} />
-              <Route exact path="/contact" component={Contact} />
-              <Route exact path="/projects" component={Projects} />
-            </Wrapper>
-                  </div>
-        </Router>
+          <Wrapper>
+            <Navbar />
+            <Route exact path="/" component={About} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/projects" component={Projects} />
+            <Footer />
+          </Wrapper>
 
- 
+        </div>
+      </Router>
+
+
     </div>
   );
 }
