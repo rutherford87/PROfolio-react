@@ -22,7 +22,7 @@ function Friends() {
                     
                     <Card.Body>
                         <Card.Title>View my resume here!</Card.Title>
-                        <Button variant="primary" href="https://drive.google.com/file/d/1UXHRjqvzoMxtesYfgA9_qwHxPEEqfdsr/view?usp=sharing">Google Drive</Button>
+                        <Button className="fixedbottom" variant="primary" href="https://drive.google.com/file/d/1UXHRjqvzoMxtesYfgA9_qwHxPEEqfdsr/view?usp=sharing">Google Drive</Button>
                     </Card.Body>
                 </Card>
             </Row>
